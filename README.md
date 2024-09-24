@@ -6,13 +6,13 @@ This project focuses on taking grayscale images as input and using a neural netw
 Libraries used: TensorFlow, Keras, OpenCV
 Key Steps:
 
-  Load and preprocess the dataset (grayscale images).
+  * Load and preprocess the dataset (grayscale images).
   
-  Build an autoencoder architecture.
+  * Build an autoencoder architecture.
   
-  Train the model to colorize the images by predicting color channels.
+  * Train the model to colorize the images by predicting color channels.
   
-  Evaluate and visualize the results.
+  * Evaluate and visualize the results.
 
 ## 2. Denoising Autoencoder
 This project focuses on using a denoising autoencoder, which takes noisy images as input and attempts to reconstruct a clean version of the image. By training the network on noisy and clean image pairs, it learns to remove noise from corrupted images.
@@ -20,12 +20,12 @@ This project focuses on using a denoising autoencoder, which takes noisy images 
 Libraries used: TensorFlow, Keras, OpenCV
 
 Key Steps:
-  Load and preprocess the dataset (original images).
+  * Load and preprocess the dataset (original images).
   
-  Add synthetic noise to the images.
+  * Add synthetic noise to the images.
   
-  Build a denoising autoencoder model.
+  * Build a denoising autoencoder model.
   
-  Train the model to remove noise from the images.
+  * Train the model to remove noise from the images.
   
   Evaluate the denoising results.
