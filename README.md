@@ -7,8 +7,11 @@ Libraries used: TensorFlow, Keras, OpenCV
 Key Steps:
 
   Load and preprocess the dataset (grayscale images).
+  
   Build an autoencoder architecture.
+  
   Train the model to colorize the images by predicting color channels.
+  
   Evaluate and visualize the results.
 
 ## 2. Denoising Autoencoder
@@ -18,7 +21,11 @@ Libraries used: TensorFlow, Keras, OpenCV
 
 Key Steps:
   Load and preprocess the dataset (original images).
+  
   Add synthetic noise to the images.
+  
   Build a denoising autoencoder model.
+  
   Train the model to remove noise from the images.
+  
   Evaluate the denoising results.
